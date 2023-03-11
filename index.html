@@ -16,42 +16,45 @@
 <body>
 
   <main class="main-container">
-    <header class="header">
-      <img src="./images/icon-menu.svg" alt="menu icon">
-      <img src="./images/logo.svg" alt="logo">
+      <header class="header">
+        <div class="header__navigation">
+        <img class="header__menu" src="./images/icon-menu.svg" alt="menu icon">
+        <img class="header__logo" src="./images/logo.svg" alt="logo">
+      </div>
 
-      <nav class="navbar">
-        <ul class="navbar__items">
-          <li><a class="navbar__link" href="#">Collections</a></li>
-          <li><a class="navbar__link" href="#">Men</a></li>
-          <li><a class="navbar__link" href="#">Women</a></li>
-          <li><a class="navbar__link" href="#">About</a></li>
-          <li><a class="navbar__link" href="#">Contact</a></li>
-          </ul>
-      </nav>
 
-      <!-- inicio modal navbar -->
-      <div class="modal-navbar__background">
-        <nav class="modal-navbar">
-          <img class="modal-navbar__close-icon" src="./images/icon-close.svg" alt="" srcset="">
-          <ul class="modal-navbar__items">
-            <li><a class="modal-navbar__link" href="#">Collections</a></li>
-            <li><a class="modal-navbar__link" href="#">Men</a></li>
-            <li><a class="modal-navbar__link" href="#">Women</a></li>
-            <li><a class="modal-navbar__link" href="#">About</a></li>
-            <li><a class="modal-navbar__link" href="#">Contact</a></li>
+        <nav class="navbar">
+          <ul class="navbar__items">
+            <li><a class="navbar__link" href="#">Collections</a></li>
+            <li><a class="navbar__link" href="#">Men</a></li>
+            <li><a class="navbar__link" href="#">Women</a></li>
+            <li><a class="navbar__link" href="#">About</a></li>
+            <li><a class="navbar__link" href="#">Contact</a></li>
             </ul>
         </nav>
-      </div>
-      <!-- final modal navbar -->
-      <div class="header__cart-avatar">
-        <div class="header__cart">
-          <div class="header__cart--notification">3</div>
-          <img src="./images/icon-cart.svg" alt="">
+        <!-- inicio modal navbar -->
+        <div class="modal-navbar__background">
+          <nav class="modal-navbar">
+            <img class="modal-navbar__close-icon" src="./images/icon-close.svg" alt="" srcset="">
+            <ul class="modal-navbar__items">
+              <li><a class="modal-navbar__link" href="#">Collections</a></li>
+              <li><a class="modal-navbar__link" href="#">Men</a></li>
+              <li><a class="modal-navbar__link" href="#">Women</a></li>
+              <li><a class="modal-navbar__link" href="#">About</a></li>
+              <li><a class="modal-navbar__link" href="#">Contact</a></li>
+              </ul>
+          </nav>
         </div>
-        <img src="./images/image-avatar.png" alt="">
-      </div>
-    </header>
+        <!-- final modal navbar -->
+        <div class="header__cart-avatar">
+          <div class="header__cart">
+            <div class="header__cart--notification">3</div>
+            <img src="./images/icon-cart.svg" alt="">
+          </div>
+          <img class="header__avatar" src="./images/image-avatar.png" alt="">
+        </div>
+      </header>
+    </div>
 
     <section class="content">
       <article class="gallery">
