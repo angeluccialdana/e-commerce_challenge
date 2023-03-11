@@ -1,0 +1,30 @@
+h1 {
+    color:tomato;
+}
+
+p.texto {
+    color:slateblue;
+}
+
+p.especial {
+    color:mediumaquamarine
+}
+
+div p {
+    color:mediumseagreen
+}
+
+div h2, div h3 {
+    color:brown;
+}
+
+* {
+    font-size: 24px;
+    color:black;
+}
+
+/* esto es un comentario*/
+
+.color {
+    color: #00f;
+}
